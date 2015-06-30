@@ -5,7 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-<img src="/assets/jiyu-jin.jpg" alt="自遊人">
+<img src="{{ BASE_PATH }}/assets/jiyu-jin.jpg" alt="自遊人">
 
 ## 自遊人処Cafeコンサートとは？
 
@@ -24,6 +24,6 @@ TEL	0467-24-7557
 
 ## Coming Up
 <!-- <a href="/assets/jiyu-jin624.png" data-lightbox="2015624" data-title="a">Coming Up</a> -->
-<img src="/assets/jiyu-jin624.png" alt="ちらし">
+<img src="{{ BASE_PATH }}/assets/jiyu-jin624.png" alt="ちらし">
 
 過去の活動はこちら
