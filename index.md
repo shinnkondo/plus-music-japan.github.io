@@ -21,7 +21,7 @@ title: +M(ぷらすみゅーじっく)
     <ul id="newslist">
         <li><strong>NEW!</strong> コラム6月号｢コンサートのマナーPart1｣</li>
         <li>タウンニュース　逗子葉山版で紹介されました。</li>
-        <li><a href="/jiyu-jin.html#coming-up"> 6/24（水）自遊人処Cafeコンサート </a></li>
+        <li><a href="{{ BASE_PATH }}/jiyu-jin.html#coming-up"> 6/24（水）自遊人処Cafeコンサート </a></li>
         <li>6/28（日）自遊人処親子リトミック</li>
     </ul>
 </div>
