@@ -43,7 +43,7 @@
              {% if page.url == node.url %}
               <li role=presentation class="active"><a class="extra active" href="{{node.url}}">{{node.title}}</a></li>
              {% else %}
-               <li role=presentation><a class="extra" href="{{node.url}}">{{node.title}}</a></li>
+               <li role=presentation><a class="extra" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
              {% endif %}
            {% endif %}
           {% endfor %}
