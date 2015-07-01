@@ -84,7 +84,7 @@ ul.posts {
 
 /* Customize container */
 @media (min-width: 768px) {
-  .container {
+  .narrow {
     max-width: 730px;
   }
 }
@@ -99,7 +99,7 @@ ul.posts {
 .title {
   color: black;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .title a {
   text-decoration: none;
@@ -208,7 +208,7 @@ ul#news {
     }
 
   /* terminal */
-
+-
   #post pre.terminal {
     border: 1px solid black;
     background-color: #333;
@@ -226,3 +226,22 @@ ul#news {
   #related h2 {
     margin-bottom: 1em;
   }
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 10px;
+}
+.carousel-caption {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  width: 100%;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+}
