@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "コンサート"
+title: "Concert"
 description: ""
+group: "navigation"
 ---
 {% include JB/setup %}
 

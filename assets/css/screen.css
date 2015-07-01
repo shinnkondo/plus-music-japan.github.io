@@ -23,11 +23,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
   font-size: 100%;
   color: #E55600;
 }
 
 h1 {
+  font-size: large;
   margin-bottom: 1em;
 }
 
@@ -40,12 +42,13 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: #44e;
+  text-decoration: none;
 }
 
-a:visited {
+/*a:visited {
   color: #a0a;
-}
+}*/
 
 table {
   font-size: inherit;
@@ -94,34 +97,38 @@ ul.posts {
 }
 
 .title {
-  color: #a00;
+  color: black;
   font-weight: bold;
   margin-bottom: 2em;
 }
-
-  .site .title a {
+.title a {
+  text-decoration: none;
+}
+  a.logo {
     color: #E55600;
-    text-decoration: none;
-  }
-
-  #logo {
     font-family: 'Calligraffitti', cursive;
     font-size: 150%;
     float: left;
+    padding-top: 10px;
+    margin-right: 15px;
   }
-
-  .site .title a:hover {
+  a.logo:hover {
     color: #FF6000;
   }
 
-  .site .title a.extra {
+  a.extra {
     color: #aaa;
   }
 
-  .site .title a.extra:hover {
+  a.extra:hover {
     color: black;
   }
-
+  .nav-pills > li.active > a,
+  .nav-pills > li.active > a:hover,
+  .nav-pills > li.active > a:focus {
+    color: #E55600;
+    background-color: #FFFFFF;
+  }
   .site .meta {
     color: #aaa;
   }
@@ -152,18 +159,18 @@ ul.posts {
         color: #8085C1;
       }
 
-    .site .footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
-    }
-
       .site .footer .rss img {
         border: 0;
       }
 
-
-ul {
+.inhibit{
+  color: #666;
+  }
+  
+blockquote {
+  font-size: 100%;
+}
+ul#news {
   margin-top: 1em;
 }
 /*****************************************************************************/
