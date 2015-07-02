@@ -1,11 +1,12 @@
 ---
 layout: page
-title: "Artists"
+title: "所属Artists"
 description: ""
 group: "navigation"
 ---
 {% include JB/setup %}
-
+<h1> アーティスト</h1>
++M（ぷらすみゅーじっく）所属の演奏者及び伴奏者です。
 <div  class="container table-responsive" >
   <table class="table">
     <tbody>

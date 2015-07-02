@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Column"
+title: "コラム"
 description: ""
 group: navigation
 ---
 {% include JB/setup %}
 
-## コラム
+# クラシックコラム
 +M（ぷらすみゅーじっく）ではクラシック音楽のあれこれや、おすすめ公演、演奏者との対談を公開していきます。
 
 <ul class="post-list">

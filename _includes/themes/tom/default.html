@@ -38,14 +38,23 @@
       <a class="logo" href="{{ HOME_PATH }}">{{ site.title }}</a>
       <ul class="nav nav-pills">
         {% for node in site.pages %}
-        {% if 'navigation' == null or 'navigation' == node.group %}
-        {% if page.url == node.url %}
-        <li role=presentation class="active"><a class="extra active" href="{{node.url}}">{{node.title}}</a></li>
-        {% else %}
-        <li role=presentation><a class="extra" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-        {% endif %}
-        {% endif %}
+          {% if 'navigation' == node.group %}
+            {% if page.url == node.url %}
+              <li role=presentation class="active"><a class="extra active" href="{{node.url}}">{{node.title}}</a></li>
+            {% else %}
+              <li role=presentation><a class="extra" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+            {% endif %}
+          {% endif %}
         {% endfor %}
+        <li class="dropdown"　role=presentation>
+         <a href="#" class="dropdown-toggle extra" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ BASE_PATH }}/concert.html">自遊人処Cafeコンサート</a></li>
+            <li><a href="{{ BASE_PATH }}/rythmique.html">リトミック</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">過去の活動</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>

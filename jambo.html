@@ -5,6 +5,15 @@ description: ""
 group: navigation
 ---
 {% include JB/setup %}
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- Carousel================================================== -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 	<!-- Indicators -->
@@ -18,60 +27,92 @@ group: navigation
 			<img class="first-slide" src="{{ BASE_PATH }}/assets/rythmique.jpg" alt="First slide">
 			<div class="container">
 				<div class="carousel-caption">
-				<span class="h2">0歳から大人まで楽しめる本格クラシック</span>
-					<p>町中でクラシックの生演奏が聴ける。<br>
-					お子様と気軽にコンサートに行ける。<br>
-					公園にいったらリトミックが行われていた。</p>
+					<span class="h2">0歳から大人まで楽しめる本格クラシック</span>
+					<p>クラシックを身近に</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img class="second-slide" src="{{ BASE_PATH }}/assets/concert1.jpg" alt="Second slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<span class="h2">若き音楽家達による演奏</span>
+						<p>溢れる情熱を、ゼロ距離で。</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img class="third-slide" src="{{ BASE_PATH }}/assets/jiyu-jin.jpg" alt="Third slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<span class="h2">ちょっとした日常に音楽を+しませんか?</span>
+						<p> クラシックの価値を下げることなく、ハードルを下げていけるように。</p>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="item">
-			<img class="second-slide" src="{{ BASE_PATH }}/assets/concert1.jpg" alt="Second slide">
-			<div class="container">
-				<div class="carousel-caption">
-				<span class="h2">若き音楽家達による演奏</span>
-				<p>溢れる情熱を、ゼロ距離で。</p>
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<img class="third-slide" src="{{ BASE_PATH }}/assets/jiyu-jin.jpg" alt="Third slide">
-			<div class="container">
-				<div class="carousel-caption">
-				<span class="h2">ちょっとした日常に音楽を+しませんか?</span>
-				<p> クラシックの価値を下げることなく、ハードルを下げていけるように。</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-	</a>
-	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	</a>
-</div><!-- /.carousel -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div><!-- /.carousel -->
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-4">
-			<h2> 音楽を聴きたい！ </h2>
-			<p>自遊人処Cafeコンサート、リトミックを始めとして、神奈川県逗子市を中心に様々なイベントを行っています。</p>
-			<a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}" role="button">詳しくはこちら»</a>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h2> 音楽を聴きたい！ </h2>
+				<p>自遊人処Cafeコンサート、リトミックを始めとして、神奈川県逗子市を中心に様々なイベントを行っています。</p>
+				<a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}#audience" role="button">詳しくはこちら»</a>
+			</div>
+			<div class="col-md-4">
+				<h2> 音楽を奏でたい！ </h2>
+				<p>+M（ぷらすみゅーじっく）では、コンセプトに賛同してくださる、志を持った演奏者および伴奏者の方を随時募集しております。</p>
+				<a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}#player" role="button">詳しくはこちら»</a>
+			</div>
+			<div class="col-md-4">
+				<h2> 音楽イベントを開きたい！ </h2>
+				<p>ホームパーティーでの演奏、商業施設や飲食店での演奏、市や町内会のイベント、店内ミュージックの作製など幅広いご依頼に対応する事が可能です。</p>
+				<a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}" role="button">詳しくはこちら»</a>
+			</div>
 		</div>
-		<div class="col-md-4">
-			<h2> 音楽を奏でたい！ </h2>
-			<p>+M（ぷらすみゅーじっく）では、コンセプトに賛同してくださる、志を持った演奏者および伴奏者の方を随時募集しております。</p>
-			<a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}" role="button">詳しくはこちら»</a>
-		</div>
-		<div class="col-md-4">
-			<h2> 音楽イベントを開きたい！ </h2>
-			<p>ホームパティーでの演奏、商業施設や飲食店での演奏、市や町内会のイベント、店内ミュージックの作製など幅広いご依頼に対応する事が可能です。</p>
-			<a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}" role="button">詳しくはこちら»</a>
-		</div>
-	</div>
-</div>
+		<hr>
+		<div class="row">
+			<div class="col-xs-12 col-sm-8">
+				<h2 id="audience"> 音楽を聴きたい方へ</h2>
+				<p>コンサートなどのイベントの予定につきましては、右手にある当サイト最新情報または+M(ぷらすみゅーじっく）Facebookページをご確認ください。</p>
+				<p>また、クラシック初心者の方を対象としたコラムも執筆しています。</p>
+				<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/column.html" role="button">コラムを読む»</a></p>
+				<p>個々のイベントについての詳細は、こちらからどうぞ。</p>
+				<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/concert.html" role="button">自遊人処Cafeコンサートとは»</a></p>
+				<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/rythmique.html" role="button">リトミックとは»</a></p>
+				<p> ご質問や、予約に関するお問い合わせ等ございましたら、下記よりご連絡ください。</p>
+				<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/contact.html" role="button">連絡する»</a></p>
 
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<h2 id="news">最新情報</h2>
+				<ul id="newslist">
+					<li><strong>NEW!</strong> <a href="{{ BASE_PATH }}/2015/06/concert_manner_part1/">コラム6月号｢コンサートのマナーPart1｣</a></li>
+					<li><a href="http://www.townnews.co.jp/0503/2015/05/15/283567.html">タウンニュース　逗子葉山版で紹介されました。</a></li>
+					<li><a href="{{ BASE_PATH }}/concert.html#coming-up"> 6/24（水）自遊人処Cafeコンサート </a></li>
+					<li>6/28（日）自遊人処親子リトミック</li>
+				</ul>
+
+				<div class="fb-page" data-href="https://www.facebook.com/plusmusic.zushi" data-small-header="true" data-height="450" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/plusmusic.zushi"><a href="https://www.facebook.com/plusmusic.zushi">+M（ぷらすみゅーじっく）</a></blockquote></div></div>
+
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-xs-12 col-sm-4">
+			</div>
+			<div class="col-xs-12 col-sm-8">
+			</div>
+		</div>
+
+	</div>
 </div>

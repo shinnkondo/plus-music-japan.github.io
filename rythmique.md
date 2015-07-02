@@ -1,8 +1,7 @@
 ---
+title: "リトミック"
 layout: page
-title: "Rythmique"
 description: ""
-group: navigation
 ---
 {% include JB/setup %}
 

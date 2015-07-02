@@ -6,15 +6,20 @@ group: navigation
 ---
 {% include JB/setup %}
 
-## クラシック音楽を身近に
+# ＋M（ぷらすみゅーじっく）について
+
 このたびは＋M（ぷらすみゅーじっく）にお越しくださりありがとうございます。
+
+＋M（ぷらすみゅーじっく）は逗子市を拠点に __０歳から大人まで楽しめる本格クラシック__ をコンセプトとした若き音楽家達による演奏を企画、運営する団体です。
 
 町中でクラシックの生演奏が聴ける。  
 お子様と気軽にコンサートに行ける。  
 公園にいったらリトミックが行われていた。  
 そんな活動を行っています。
 
-演奏依頼承っております。
+<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}" role="button">過去の活動を見る»</a></p>
+<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/artists.html" role="button">所属アーティストを見る»</a></p>
+
 
 __代表：　近藤喬之__  
 神奈川県逗子市出身。  
@@ -25,3 +30,4 @@ __代表：　近藤喬之__
 逗子市を拠点に「0歳から楽しめる本格クラシック」をコンセプトに演奏活動、演奏企画、プロデュースを行っている。
 
 好きな食べ物は醤油ラーメンとオムライス。
+<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/contact.html" role="button">連絡はこちら»</a></p>
