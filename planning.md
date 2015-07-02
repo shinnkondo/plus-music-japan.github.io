@@ -13,7 +13,7 @@ order: 4
 ちょっとした日常に音楽を+しませんか?
 
 個人の方から法人の方まで、幅広いご依頼に対応する事が可能です。まずはご相談ください。
-<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/contact.html" role="button">相談する»</a></p>
+<p><a class="btn btn-default" href="{{ BASE_PATH }}/contact.html" role="button">相談する»</a></p>
 
 ## Q&A
 
@@ -29,4 +29,4 @@ A. まずは詳しいお話を伺った上でクラシックの事がわから�
 Q4. どんな人達が演奏してくれるのですか？  
 A. +M（ぷらすみゅーじっく）所属の演奏者一覧をごらんください。　
 
-<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/artists.html" role="button">所属アーティストを見る»</a></p>
+<p><a class="btn btn-default" href="{{ BASE_PATH }}/artists.html" role="button">所属アーティストを見る»</a></p>

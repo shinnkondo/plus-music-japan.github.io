@@ -21,4 +21,4 @@ order: 3
 
 下記よりご連絡ください。
 
-<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/contact.html" role="button">連絡する»</a></p>
+<p><a class="btn btn-default" href="{{ BASE_PATH }}/contact.html" role="button">連絡する»</a></p>

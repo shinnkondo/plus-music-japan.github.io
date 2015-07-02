@@ -11,22 +11,22 @@ description: ""
 <div class="row">
 	<div class="col-xs-6 col-md-6">
 		<div class="thumbnail">
-			<img src="{{ BASE_URL }}/assets/archive/スクリーンショット 2015-05-12 9.56.04.png" alt="...">
+			<img src="{{ BASE_PATH }}/assets/archive/スクリーンショット 2015-05-12 9.56.04.png" alt="...">
 		</div>
 	</div>
 	<div class="col-xs-6 col-md-6">
 		<div class="thumbnail">
-		<img src="{{ BASE_URL }}/assets/archive/スクリーンショット 2015-02-27 12.22.44.png" alt="...">
+		<img src="{{ BASE_PATH }}/assets/archive/スクリーンショット 2015-02-27 12.22.44.png" alt="...">
 		</div>
 	</div>
 	<div class="col-xs-6 col-md-6">
 		<div class="thumbnail">
-			<img src="{{ BASE_URL }}/assets/archive/スクリーンショット 2015-03-26 23.03.40.png" alt="...">
+			<img src="{{ BASE_PATH }}/assets/archive/スクリーンショット 2015-03-26 23.03.40.png" alt="...">
 		</div>
 	</div>
 	<div class="col-xs-6 col-md-6">
 		<div class="thumbnail">
-			<img src="{{ BASE_URL }}/assets/archive/スクリーンショット 2015-01-28 10.41.53.png" alt="...">
+			<img src="{{ BASE_PATH }}/assets/archive/スクリーンショット 2015-01-28 10.41.53.png" alt="...">
 		</div>
 	</div>
 </div>
@@ -35,12 +35,12 @@ description: ""
 <div class="row">
 	<div class="col-xs-6 col-md-6">
 		<div class="thumbnail">
-			<img src="{{ BASE_URL }}/assets/archive/スクリーンショット 2015-04-20 13.41.20.png" alt="...">
+			<img src="{{ BASE_PATH }}/assets/archive/スクリーンショット 2015-04-20 13.41.20.png" alt="...">
 		</div>
 	</div>
 	<div class="col-xs-6 col-md-6">
 		<div class="thumbnail">
-			<img src="{{ BASE_URL }}/assets/archive/スクリーンショット 2015-04-02 10.46.03.png" alt="...">
+			<img src="{{ BASE_PATH }}/assets/archive/スクリーンショット 2015-04-02 10.46.03.png" alt="...">
 		</div>
 	</div>
 </div>
