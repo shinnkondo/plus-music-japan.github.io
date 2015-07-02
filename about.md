@@ -18,7 +18,7 @@ order: 1
 公園にいったらリトミックが行われていた。  
 そんな活動を行っています。
 
-<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}" role="button">過去の活動を見る»</a></p>
+<p><a class="btn btn-default" href="{{ BASE_PATH }}/activity.html" role="button">過去の活動を見る»</a></p>
 <p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/artists.html" role="button">所属アーティストを見る»</a></p>
 
 
