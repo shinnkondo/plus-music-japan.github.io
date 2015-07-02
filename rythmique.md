@@ -34,4 +34,4 @@ TEL	0467-24-7557
 <!-- <a href="/assets/jiyu-jin624.png" data-lightbox="2015624" data-title="a">Coming Up</a> -->
 <img src="{{ BASE_PATH }}/assets/rythmique628.png" alt="ちらし">
 
-<p><a class="btn btn-default" href="{{ BASE_PATH }}/contact.html" role="button">過去の活動はこちら»</a></p>
+<p><a class="btn btn-default" href="{{ BASE_PATH }}/activity.html" role="button">過去の活動はこちら»</a></p>
