@@ -27,28 +27,31 @@
    <link href="/assets/lightbox/css/lightbox.css" rel="stylesheet"> -->
 
    <link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
  </head>
  <body>
 
 
 
- <div class="site">
-  <div class="container narrow">
-    <div class="title" role="navigation">
-      <a class="logo" href="{{ HOME_PATH }}">{{ site.title }}</a>
-      <ul class="nav nav-pills">
-        {% for node in site.pages %}
+   <div class="site">
+    <div class="container narrow">
+      <div class="title" role="navigation">
+        <a class="logo" href="{{ HOME_PATH }}">{{ site.title }}</a>
+        <ul class="nav nav-pills">
+          {% assign pages = site.pages | sort:"order"  %}
+          {% for node in pages %}
           {% if 'navigation' == node.group %}
-            {% if page.url == node.url %}
-              <li role=presentation class="active"><a class="extra active" href="{{node.url}}">{{node.title}}</a></li>
-            {% else %}
-              <li role=presentation><a class="extra" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-            {% endif %}
+          {% if page.url == node.url %}
+          <li role=presentation class="active"><a class="extra active" href="{{node.url}}">{{node.title}}</a></li>
+          {% else %}
+          <li role=presentation><a class="extra" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
           {% endif %}
-        {% endfor %}
-        <li class="dropdown"　role=presentation>
-         <a href="#" class="dropdown-toggle extra" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+          {% endif %}
+          {% endfor %}
+          <li class="dropdown"　role=presentation>
+           <a href="#" class="dropdown-toggle extra" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">コンサートなど <span class="caret"></span></a>
+           <ul class="dropdown-menu">
             <li><a href="{{ BASE_PATH }}/concert.html">自遊人処Cafeコンサート</a></li>
             <li><a href="{{ BASE_PATH }}/rythmique.html">リトミック</a></li>
             <li role="separator" class="divider"></li>
@@ -58,19 +61,18 @@
       </ul>
     </div>
   </div>
-    {{ content }}
-    <div class="container narrow">
+  {{ content }}
+  <div class="container narrow">
     <div class="footer">
       <div class="contact">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
       </div>
     </div>
-    </body>
   </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{ BASE_PATH }}/bootstrap/js/bootstrap.min.js"></script>
-  {% include JB/analytics %}
+</div>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{{ BASE_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+{% include JB/analytics %}
 </body>
 </html>

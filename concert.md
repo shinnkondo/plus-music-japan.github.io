@@ -22,8 +22,8 @@ description: ""
 住所	神奈川県逗子市小坪3-3-20  
 TEL	0467-24-7557
 
-## Coming Up
+## Coming up
 <!-- <a href="/assets/jiyu-jin624.png" data-lightbox="2015624" data-title="a">Coming Up</a> -->
 <img src="{{ BASE_PATH }}/assets/jiyu-jin624.png" alt="ちらし">
 
-過去の活動はこちら
+<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/contact.html" role="button">過去の活動はこちら»</a></p>

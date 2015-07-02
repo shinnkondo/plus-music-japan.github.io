@@ -18,3 +18,19 @@ description: ""
 親子リトミックでは、お母さま、お父さまが積極的に参加することで、子どもたちも安心して参加できます。まずは大人も一緒に楽しみましょう。
 
 音楽を通して、親子の触れ合い・コミュニケーションの時間となるのも、親子リトミックの良いところです。
+
+料金　親子一組500円  
+対象年齢　1歳〜4歳  
+定員　四組
+
+完全予約制となっております。
+
+自遊人処  
+住所	神奈川県逗子市小坪3-3-20  
+TEL	0467-24-7557
+
+## Coming up
+<!-- <a href="/assets/jiyu-jin624.png" data-lightbox="2015624" data-title="a">Coming Up</a> -->
+<img src="{{ BASE_PATH }}/assets/rythmique628.png" alt="ちらし">
+
+<p><a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/contact.html" role="button">過去の活動はこちら»</a></p>

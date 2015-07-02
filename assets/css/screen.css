@@ -139,9 +139,13 @@ ul.posts {
   .site img {
     width: 100%;
   }
+  .site ul {
+    margin-left: 10px;
+    padding-left: 10px;
+  }
 
   .site .fb-page {
-    height: 450px;
+    height: 500px;
   }
 
   .site .footer {

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Contact"
+title: "連絡先"
 description: ""
 group: "navigation"
+order: 5
 ---
 {% include JB/setup %}
 # 連絡先
