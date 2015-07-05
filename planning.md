@@ -32,6 +32,6 @@ A. +M（ぷらすみゅーじっく）所属の演奏者一覧をごらんくだ
 <p><a class="btn btn-default" href="{{ BASE_PATH }}/artists.html" role="button">所属アーティストを見る»</a></p>
 
 Q5. 今までどんな活動を行ってきたのですか？  
-A. +M（ぷらすみゅーじっく）所属の演奏者一覧をごらんください。
+A. 過去の活動ページに、今まで行ってきたコンサートのフライヤーや情報がございます。
 
 <p><a class="btn btn-default" href="{{ BASE_PATH }}/activity.html" role="button">過去の活動を見る»</a></p>
