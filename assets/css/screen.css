@@ -251,3 +251,13 @@ ul#news {
 }
 .carousel-inner > .item > img {
 }
+
+.carousel-indicators {
+    bottom: 0px;
+  }
+
+@media (max-width: 480px) {
+  .carousel-caption > .h2 {
+    font-size:20px;
+  }
+}
