@@ -19,7 +19,7 @@ body {
   background-color: white;
   font: 13.34px "ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","Source Sans Pro", helvetica, arial, clean, sans-serif;
   *font-size: small;
-  text-align: center;
+  text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,10 +34,6 @@ h1 {
 }
 h2 {
   font-size: large;
-}
-
-p {
-  margin: 1em 0;
 }
 
 a {
@@ -94,44 +90,44 @@ ul.posts {
 
 .site {
   font-size: 110%;
-  text-align: justify;
-  margin: 1em auto 2em auto;
   line-height: 1.5em;
 }
 
 .title {
   color: black;
   font-weight: bold;
-  margin-bottom: 1em;
 }
 .title a {
   text-decoration: none;
 }
-  a.logo {
+
+.navbar {
+    margin-bottom: 0px;
+  }
+.navbar-default .navbar-brand {
     color: #E55600;
     font-family: 'Calligraffitti', cursive;
     font-size: 150%;
-    float: left;
-    padding-top: 10px;
-    margin-right: 15px;
+    padding-top: 18px;
+    padding-bottom: 12px;
   }
-  a.logo:hover {
+
+.navbar-default .navbar-brand:hover {
     color: #FF6000;
-  }
+}
 
-  a.extra {
-    color: #aaa;
-  }
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
 
-  a.extra:hover {
-    color: black;
-  }
-  .nav-pills > li.active > a,
-  .nav-pills > li.active > a:hover,
-  .nav-pills > li.active > a:focus {
+ .navbar-default .navbar-nav > li.active > a,
+ .navbar-default .navbar-nav > li.active > a:hover,
+ .navbar-default .navbar-nav > li.active > a:focus {
     color: #E55600;
     background-color: #FFFFFF;
   }
+
   .site .meta {
     color: #aaa;
   }
@@ -139,10 +135,10 @@ ul.posts {
   .site img {
     width: 100%;
   }
-  .site ul {
+  /*.site ul {
     margin-left: 10px;
     padding-left: 10px;
-  }
+  }*/
 
   .site .fb-page {
     height: 500px;

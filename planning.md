@@ -30,3 +30,8 @@ Q4. どんな人達が演奏してくれるのですか？
 A. +M（ぷらすみゅーじっく）所属の演奏者一覧をごらんください。　
 
 <p><a class="btn btn-default" href="{{ BASE_PATH }}/artists.html" role="button">所属アーティストを見る»</a></p>
+
+Q5. 今までどんな活動を行ってきたのですか？  
+A. +M（ぷらすみゅーじっく）所属の演奏者一覧をごらんください。
+
+<p><a class="btn btn-default" href="{{ BASE_PATH }}/activity.html" role="button">過去の活動を見る»</a></p>

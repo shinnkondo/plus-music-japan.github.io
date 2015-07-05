@@ -62,17 +62,17 @@ description: ""
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-sm-4">
 			<h2> 音楽を聴きたい！ </h2>
 			<p>自遊人処Cafeコンサート、リトミックを始めとして、神奈川県逗子市を中心に様々なイベントを行っています。</p>
 			<a class="btn btn-default" href="#audience" role="button">詳しくはこちら»</a>
 		</div>
-		<div class="col-md-4">
+		<div class="col-sm-4">
 			<h2> 音楽を奏でたい！ </h2>
 			<p>+M（ぷらすみゅーじっく）では、コンセプトに賛同してくださる、志を持った演奏者および伴奏者の方を随時募集しております。</p>
 			<a class="btn btn-default" href="{{ BASE_PATH }}/call.html" role="button">詳しくはこちら»</a>
 		</div>
-		<div class="col-md-4">
+		<div class="col-sm-4">
 			<h2> 音楽イベントを開きたい！ </h2>
 			<p>ホームパーティーでの演奏、商業施設や飲食店での演奏、市や町内会のイベント、店内ミュージックの作製など幅広いご依頼に対応する事が可能です。</p>
 			<a class="btn btn-default" href="{{ BASE_PATH }}/planning.html" role="button">詳しくはこちら»</a>
@@ -80,7 +80,7 @@ description: ""
 	</div>
 	<hr>
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-sm-6 col-md-5 col-lg-4">
 			<h2 id="news">最新情報</h2>
 			<ul id="newslist">
 				<li><a href="{{ BASE_PATH }}/2015/06/concert_manner_part1/">コラム6月号｢コンサートのマナーPart1｣ </a><span class="label label-info">New</span> </li>
@@ -92,48 +92,48 @@ description: ""
 			<div class="fb-page" data-href="https://www.facebook.com/plusmusic.zushi" data-small-header="true" data-height="500" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/plusmusic.zushi"><a href="https://www.facebook.com/plusmusic.zushi">+M（ぷらすみゅーじっく）</a></blockquote></div></div>
 
 		</div>
-		<div class="col-md-8">
+		<div class="col-sm-6 col-md-7 col-lg-8">
 			<h2 id="audience"> 音楽を聴きたい方へ</h2>
 			<p>コンサートなどのイベントの予定につきましては、左手にある当サイト最新情報または+M(ぷらすみゅーじっく）Facebookページをご確認ください。</p>
 			<p>また、クラシック初心者の方を対象としたコラムも執筆しています。</p>
 			<p><a class="btn btn-default" href="{{ BASE_PATH }}/column.html" role="button">コラムを読む»</a></p>
 			<p>個々のイベントについての詳細は、こちらからどうぞ。</p>
 			<div class="row">
-				<div class="col-xs-6">
-					<div class="thumbnail">
-						<a href="{{ BASE_PATH }}/concert.html"><img src="{{ BASE_PATH }}/assets/jiyu-jin-thumb.jpg" alt="..."></a>
-						<div class="caption">
-							<p><span class="h5">自遊人処Cafeコンサート</span>
-							<a href="{{ BASE_PATH }}/concert.html" class="btn btn-default pull-right" role="button">詳細»</a></p>
+			<div class="col-sm-6">
+				<div class="thumbnail">
+					<a href="{{ BASE_PATH }}/concert.html"><img src="{{ BASE_PATH }}/assets/jiyu-jin-thumb.jpg" alt="..."></a>
+					<div class="caption">
+						<p><span class="h5">自遊人処Cafeコンサート</span>
+							<a href="{{ BASE_PATH }}/concert.html" class="btn btn-default" role="button">詳細»</a></p>
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6">
+				<div class="col-sm-6">
 					<div class="thumbnail">
 						<a href="{{ BASE_PATH }}/rythmique.html"><img src="{{ BASE_PATH }}/assets/rythmique-thumb.jpg" alt="..."></a>
 						<div class="caption">
 							<p><span class="h5">リトミック</span>
-							<a href="{{ BASE_PATH }}/rythmique.html" class="btn btn-default pull-right" role="button">詳細»</a></p>
+								<a href="{{ BASE_PATH }}/rythmique.html" class="btn btn-default" role="button">詳細»</a></p>
+							</div>
 						</div>
 					</div>
+					</div>
+					<p> ご質問や、予約に関するお問い合わせ等ございましたら、下記よりご連絡ください。</p>
+					<p><a class="btn btn-default" href="{{ BASE_PATH }}/contact.html" role="button">連絡する»</a></p>
 				</div>
 			</div>
-			<p> ご質問や、予約に関するお問い合わせ等ございましたら、下記よりご連絡ください。</p>
-			<p><a class="btn btn-default" href="{{ BASE_PATH }}/contact.html" role="button">連絡する»</a></p>
 		</div>
-	</div>
-</div>
 
-<!-- smooth scroll -->
-<script type="text/javascript">
-$(function(){
-	$('a[href^=#audience]').click(function(){
-		var speed = 500;
-		var href= $(this).attr("href");
-		var target = $(href == "#" || href == "" ? 'html' : href);
-		var position = target.offset().top;
-		$("html, body").animate({scrollTop:position}, speed, "swing");
-		return false;
-	});
-});
-</script>
+		<!-- smooth scroll -->
+		<script type="text/javascript">
+			$(function(){
+				$('a[href^=#audience]').click(function(){
+					var speed = 500;
+					var href= $(this).attr("href");
+					var target = $(href == "#" || href == "" ? 'html' : href);
+					var position = target.offset().top;
+					$("html, body").animate({scrollTop:position}, speed, "swing");
+					return false;
+				});
+			});
+		</script>
