@@ -39,9 +39,13 @@ tags: []
 
 いかがでしたか？
 
+---
+
 ♪おすすめの公演♪  
 「おうたがいっぱいコンサート」  
 7月27日(月) 10時半開演  
 逗子文化プラザ さざなみホール  
 大人のみ 1000円  
-https://www.facebook.com/chisanaongakukai
+<p><a class="btn btn-default" href="https://www.facebook.com/chisanaongakukai" role="button">詳細はこちら»</a></p>
+
+

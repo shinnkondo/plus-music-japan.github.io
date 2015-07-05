@@ -48,11 +48,14 @@ tags: []
 この機会に、親子でクラシックデビュー！いかがでしょうか  
 演奏を聴き終わったら、子ども達の想像の世界のお話をたっぷりと聞けることでしょう☆  
 
+---
 
 ♪おすすめコンサート♪  
 《横浜みなとみらいホール　こどもの日コンサート2015》  
 5/5(火・祝) 2回公演  
-横浜みなとみらいホール 大ホール  
-http://www.yaf.or.jp/mmh/recommend/2015/05/presents-6.php  
+横浜みなとみらいホール 大ホール
+
+<p><a class="btn btn-default" href="http://www.yaf.or.jp/mmh/recommend/2015/05/presents-6.php" role="button">詳細はこちら»</a></p>
+  
 
 <span class="inhibit">注）おすすめコンサートは+M（ぷらすみゅーじっく）の活動とは一切関係ありません。<span>
