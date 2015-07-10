@@ -38,7 +38,7 @@
         <div id="navbar" class="title navbar-collapse collapse" role="navigation">
           <ul class="nav navbar-nav">{% assign pages = site.pages | sort:"order"  %}{% for node in pages %}{% if 'navigation' == node.group %}{% if page.url == node.url %}
             <li class="active"><a class="extra" href="{{node.url}}">{{node.title}}</a></li>{% else %}
-            <li><a href="{{ BASE_PATH }}{{node.url}}.html">{{node.title}}</a></li>
+            <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
             {% endif %}{% endif %}{% endfor %}
             <li class="dropdown">
              <a href="#" class="dropdown-toggle extra" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">コンサートなど <span class="caret"></span></a>
