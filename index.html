@@ -13,6 +13,7 @@ description: ""
 	fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<div class="paper-base">
 <!-- Carousel================================================== -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 	<!-- Indicators -->
@@ -23,7 +24,7 @@ description: ""
 	</ol>
 	<div class="carousel-inner" role="listbox">
 		<div class="item active">
-			<a href="{{ BASE_PATH }}/rythmique.html", title="リトミック"><img class="first-slide" src="{{ BASE_PATH }}/assets/rythmique.jpg" alt="First slide"></a>
+			<a href="{{ BASE_PATH }}/rythmique.html" title="リトミック"><img class="first-slide" src="{{ BASE_PATH }}/assets/rythmique.jpg" alt="First slide"></a>
 			<div class="container">
 				<div class="carousel-caption">
 					<span class="h2">0歳から大人まで楽しめる本格クラシック</span>
@@ -60,85 +61,97 @@ description: ""
 	</a>
 </div><!-- /.carousel -->
 
-<div class="container">
-	<div class="row">
-		<div class="col-sm-4">
-			<h2> 音楽を聴きたい！ </h2>
-			<p>自遊人処Cafeコンサート、リトミックを始めとして、神奈川県逗子市を中心に様々なイベントを行っています。</p>
-			<a class="btn btn-default" href="#audience" role="button">詳しくはこちら»</a>
-		</div>
-		<div class="col-sm-4">
-			<h2> 音楽を奏でたい！ </h2>
-			<p>+M（ぷらすみゅーじっく）では、コンセプトに賛同してくださる、志を持った演奏者および伴奏者の方を随時募集しております。</p>
-			<a class="btn btn-default" href="{{ BASE_PATH }}/call.html" role="button">詳しくはこちら»</a>
-		</div>
-		<div class="col-sm-4">
-			<h2> 音楽イベントを開きたい！ </h2>
-			<p>ホームパーティーでの演奏、商業施設や飲食店での演奏、市や町内会のイベント、店内ミュージックの作製など幅広いご依頼に対応する事が可能です。</p>
-			<a class="btn btn-default" href="{{ BASE_PATH }}/planning.html" role="button">詳しくはこちら»</a>
-		</div>
-	</div>
-	<hr>
-	<div class="row">
-		<div class="col-sm-6 col-md-5 col-lg-4">
-			<h2 id="news">最新情報</h2>
-			<ul id="newslist">
-				<li><a href="{{ BASE_PATH }}/2015/07/concert-manner-part2/">コラム7月号｢コンサートのマナーPart2｣ </a><span class="label label-info">New</span> </li>
-				<li><a href="http://www.townnews.co.jp/0503/2015/05/15/283567.html">タウンニュース　逗子葉山版で紹介されました。</a></li>
-				<li><a href="{{ BASE_PATH }}/concert.html#coming-up">6/24（水）自遊人処Cafeコンサート </a></li>
-				<li><a href="{{ BASE_PATH }}/rythmique.html#coming-up">6/28（日）自遊人処親子リトミック</a></li>
-			</ul>
 
-			<div class="fb-page" data-href="https://www.facebook.com/plusmusic.zushi" data-small-header="true" data-height="500" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/plusmusic.zushi"><a href="https://www.facebook.com/plusmusic.zushi">+M（ぷらすみゅーじっく）</a></blockquote></div></div>
 
-		</div>
-		<div class="col-sm-6 col-md-7 col-lg-8">
-			<h2 id="audience"> 音楽を聴きたい方へ</h2>
-			<p>コンサートなどのイベントの予定につきましては、左手にある当サイト最新情報または+M(ぷらすみゅーじっく）Facebookページをご確認ください。</p>
-			<p>また、クラシック初心者の方を対象としたコラムも執筆しています。</p>
-			<p><a class="btn btn-default" href="{{ BASE_PATH }}/column.html" role="button">コラムを読む»</a></p>
-			<p>個々のイベントについての詳細は、こちらからどうぞ。</p>
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="thumbnail">
-					<a href="{{ BASE_PATH }}/concert.html"><img src="{{ BASE_PATH }}/assets/jiyu-jin-thumb.jpg" alt="..."></a>
-					<div class="caption">
-						<p><span class="h5">自遊人処Cafeコンサート</span>
-							<a href="{{ BASE_PATH }}/concert.html" class="btn btn-default" role="button">詳細»</a></p>
-						</div>
-					</div>
+	<div class="container">
+		<div class="row multiple-header">
+			<div class="col-sm-4">
+				<div class="paper-box">
+					<h2> 音楽を聴きたい！ </h2>
+					<p>自遊人処Cafeコンサート、リトミックを始めとして、神奈川県逗子市を中心に様々な音楽イベントを行っています。</p>
+					<div class="place-holder"></div>
+					<a class="btn btn-info" href="#audience" role="button">詳しくはこちら»</a>
 				</div>
-				<div class="col-sm-6">
-					<div class="thumbnail">
-						<a href="{{ BASE_PATH }}/rythmique.html"><img src="{{ BASE_PATH }}/assets/rythmique-thumb.jpg" alt="..."></a>
-						<div class="caption">
-							<p><span class="h5">リトミック</span>
-								<a href="{{ BASE_PATH }}/rythmique.html" class="btn btn-default" role="button">詳細»</a></p>
-							</div>
-						</div>
-					</div>
-					</div>
-					<p> ご質問や、予約に関するお問い合わせ等ございましたら、下記よりご連絡ください。</p>
-					<p><a class="btn btn-default" href="{{ BASE_PATH }}/contact.html" role="button">連絡する»</a></p>
-					<p><a class="btn btn-primary" href="{{ BASE_PATH }}/contact.html" role="button">連絡する»</a></p>
-					<p><a class="btn btn-info" href="{{ BASE_PATH }}/contact.html" role="button">連絡する»</a></p>
-					<p><a class="btn btn-warning" href="{{ BASE_PATH }}/contact.html" role="button">連絡する»</a></p>
-					<p><a class="btn btn-danger" href="{{ BASE_PATH }}/contact.html" role="button">連絡する»</a></p>
-
+			</div>
+			<div class="col-sm-4">
+				<div class="paper-box">
+					<h2> 音楽を奏でたい！ </h2>
+					<p>+M（ぷらすみゅーじっく）では、コンセプトに賛同してくださる、志を持った演奏者および伴奏者の方を随時募集しております。</p>
+					<div class="place-holder"></div>
+					<a class="btn btn-info" href="{{ BASE_PATH }}/call.html" role="button">詳しくはこちら»</a>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="paper-box">
+					<h2> 音楽イベントを開きたい！ </h2>
+					<p>ホームパーティーでの演奏、商業施設や飲食店での演奏、市や町内会のイベント、店内ミュージックの作製など幅広いご依頼に対応する事が可能です。</p>
+					<div class="place-holder"></div>
+					<a class="btn btn-info" href="{{ BASE_PATH }}/planning.html" role="button">詳しくはこちら»</a>
 				</div>
 			</div>
 		</div>
+		<div class="row main-columns">
+			<div class="col-sm-6 col-md-5 col-lg-4">
+				<div class="paper-box">
+					<h2 id="news">最新情報</h2>
+					<ul class="newslist">
+						<li><a href="{{ BASE_PATH }}/2015/07/concert-manner-part2/">コラム7月号｢コンサートのマナーPart2｣ </a><span class="label label-info">New</span> </li>
+						<li><a href="http://www.townnews.co.jp/0503/2015/05/15/283567.html">タウンニュース　逗子葉山版で紹介されました。</a></li>
+						<li><a href="{{ BASE_PATH }}/concert.html#coming-up">6/24（水）自遊人処Cafeコンサート </a></li>
+						<li><a href="{{ BASE_PATH }}/rythmique.html#coming-up">6/28（日）自遊人処親子リトミック</a></li>
+					</ul>
+					<div class="fb-page" data-href="https://www.facebook.com/plusmusic.zushi" data-small-header="true" data-height="500" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/plusmusic.zushi"><a href="https://www.facebook.com/plusmusic.zushi">+M（ぷらすみゅーじっく）</a></blockquote></div></div>
 
-		<!-- smooth scroll -->
-		<script type="text/javascript">
-			$(function(){
-				$('a[href^=#audience]').click(function(){
-					var speed = 500;
-					var href= $(this).attr("href");
-					var target = $(href == "#" || href == "" ? 'html' : href);
-					var position = target.offset().top;
-					$("html, body").animate({scrollTop:position}, speed, "swing");
-					return false;
-				});
-			});
-		</script>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-7 col-lg-8">
+				<div class="paper-box">
+					<h2 id="audience"> 音楽を聴きたい方へ</h2>
+					<p>コンサートなどのイベントの予定につきましては、左手にある当サイト最新情報または+M(ぷらすみゅーじっく）Facebookページをご確認ください。</p>
+					<p>また、クラシック初心者の方を対象としたコラムも執筆しています。</p>
+					<p><a class="btn btn-info" href="{{ BASE_PATH }}/column.html" role="button">コラムを読む»</a></p>
+					<p>個々のイベントについての詳細は、こちらからどうぞ。</p>
+					<div class="row concerts">
+						<div class="col-sm-6">
+							<div class="thumbnail">
+								<a href="{{ BASE_PATH }}/concert.html"><img src="{{ BASE_PATH }}/assets/jiyu-jin-thumb.jpg" alt="..."></a>
+								<div class="caption">
+									<span>自遊人処Cafeコンサート</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="thumbnail">
+								<a href="{{ BASE_PATH }}/rythmique.html"><img src="{{ BASE_PATH }}/assets/rythmique-thumb.jpg" alt="..."></a>
+								<div class="caption">
+									<span>リトミック</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<p> ご質問や、予約に関するお問い合わせ等ございましたら、下記よりご連絡ください。</p>
+					<p><a class="btn btn-info" href="{{ BASE_PATH }}/contact.html" role="button">連絡する»</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- smooth scroll -->
+<script type="text/javascript">
+	$(function(){
+		$('a[href^=#audience]').click(function(){
+			var speed = 500;
+			var href= $(this).attr("href");
+			var target = $(href == "#" || href == "" ? 'html' : href);
+			var position = target.offset().top;
+			$("html, body").animate({scrollTop:position}, speed, "swing");
+			return false;
+		});
+	});
+</script>
+<script src="{{ BASE_PATH }}/assets/js/jquery.matchHeight-min.js"></script>
+<script type="text/javascript">
+	$(".main-columns .paper-box").matchHeight({});
+	$(".multiple-header .paper-box").matchHeight({});
+	$(".concerts .thumbnail").matchHeight({});
+</script>
