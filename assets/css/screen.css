@@ -302,7 +302,9 @@ ul.newslist {
     border-color: #37474f;
 }
 
-
+.col-btn {
+  padding-left: 0;
+}
 /*.paper-box a.btn {
   position: absolute;
   left: 21px;
