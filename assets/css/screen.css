@@ -277,6 +277,15 @@ ul.newslist {
 .paper-box  h2 {
   margin-top: 0;
 }
+/*
+@media (min-width: 768px) {
+  .paper-box {
+    box-shadow: none;
+  }
+  .paper-base {
+  background-color: #fff;
+  }
+}*/
 
 .btn-plus {
     color: #FFF;
