@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "コンサートのマナーPart1"
+title: "コラム6月号　コンサートのマナーPart1"
 description: "第2回は、｢コンサートのマナーPart1｣として、コンサートに出掛ける準備から開演前までのマナーやポイントを中心にお届けします。 "
-category: 
+category: column
 tags: []
 
 ---

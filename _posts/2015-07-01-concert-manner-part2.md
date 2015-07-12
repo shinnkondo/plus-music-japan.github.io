@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "コンサートのマナーPart2"
+title: "コラム7月号　コンサートのマナーPart2"
 description: "第3回も、前回に引き続き「コンサートのマナーＰａｒｔ2」をお届けします。今回は開演中のマナーについてです。"
-category: 
+category: column
 tags: []
 ---
 {% include JB/setup %}

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "親子で楽しむクラシックコンサート"
+title: "コラム5月号 親子で楽しむクラシックコンサート"
 description: "クラシックは、あなたが思うよりずっと自由な音楽なのです。 この機会に、親子でクラシックデビュー！いかがでしょうか。"
-category: 
+category: column
 tags: []
 ---
 {% include JB/setup %}

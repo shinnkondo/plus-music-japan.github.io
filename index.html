@@ -95,10 +95,9 @@ description: ""
 				<div class="paper-box">
 					<h2 id="news">最新情報</h2>
 					<ul class="newslist">
-						<li><a href="{{ BASE_PATH }}/rythmique.html#coming-up">7/26（日）自遊人処親子リトミック</a></li>
-						<li><a href="{{ BASE_PATH }}/concert.html#coming-up">7/22（水）自遊人処Cafeコンサート </a></li>
-						<li><a href="{{ BASE_PATH }}/2015/07/concert-manner-part2/">コラム7月号｢コンサートのマナーPart2｣</a></li>
-						<li><a href="http://www.townnews.co.jp/0503/2015/05/15/283567.html">タウンニュース　逗子葉山版で紹介されました。</a></li>
+						{% for line in site.data.news %}
+						<li><a href="{{ BASE_PATH }}{{line.url}}">{{line.title}}</a></li>
+						{% endfor %}
 					</ul>
 					<div class="fb-page" data-href="https://www.facebook.com/plusmusic.zushi" data-small-header="true" data-height="500" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/plusmusic.zushi"><a href="https://www.facebook.com/plusmusic.zushi">+M（ぷらすみゅーじっく）</a></blockquote></div></div>
 

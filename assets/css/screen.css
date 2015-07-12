@@ -345,8 +345,21 @@ ul.newslist {
   }
 }
 
-.multiple-header {
+p.interviewer::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  border-bottom: 1px solid #333;
+  width: 40px;
+  left: -40px;
+  top: 9px;
 }
-.multiple-header .col-sm-4 {
-  min-height: 100%;
+
+p.interviewer {
+  margin-left: 40px;
+  padding-left: 5px;
+  position: relative;
+}
+hr {
+  border-color: #ccc;
 }
