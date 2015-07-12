@@ -31,7 +31,6 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
         server: {
             baseDir: '_site'
         },
-        online: false
     });
 });
 

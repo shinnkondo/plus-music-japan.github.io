@@ -30,8 +30,11 @@ description: ""
 住所	神奈川県逗子市小坪3-3-20  
 TEL	0467-24-7557
 
+または
+<p><a class="btn btn-info" href="{{ BASE_PATH }}/contact.html" role="button">連絡する»</a></p>
+
 ## Coming up
 <!-- <a href="/assets/jiyu-jin624.png" data-lightbox="2015624" data-title="a">Coming Up</a> -->
-<img src="{{ BASE_PATH }}/assets/rythmique628.png" alt="ちらし">
+<img src="{{ BASE_PATH }}/assets/images/{{site.data.concert.rythmique | first }}" alt="Flyer">
 
 <p><a class="btn btn-info" href="{{ BASE_PATH }}/activity.html" role="button">過去の活動はこちら»</a></p>

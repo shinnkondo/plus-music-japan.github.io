@@ -254,17 +254,30 @@ ul.newslist {
 
 .carousel-indicators {
     bottom: 0px;
-  }
+}
 
 @media (max-width: 480px) {
   .carousel-caption > .h2 {
     font-size:20px;
   }
+  .carousel-indicators > li {
+    width: 8px;
+    height: 8px;
+  }
+  .carousel-indicators .active {
+    width: 9px;
+    height: 9px;
+  }
 }
 
 /*paper-material style shodow*/
 .paper-base {
+  background-color: #eee;
+}
+@media (min-width: 768px) {
+.paper-base {
   background-color: #fafafa;
+}
 }
 .paper-box {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
