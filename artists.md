@@ -10,9 +10,11 @@ description: ""
 <div  class="container narrow table-responsive" >
   <table class="table">
     <tbody>{% for artist in site.data.artists %}
-      <tr>{% for elem in artist %}
-        <td> {{ elem | replace: '_', '<br>'}}</td>{% endfor%}
-      </tr>{% endfor%}
+      <tr>
+        <td> {{ artist.part | replace: '_', '<br>'}}</td>
+        <td> {{ artist.name }}</td>
+        <td> {{ artist.school | replace: '_', '<br>'}}</td>
+      </tr>{% endfor %}
     </tbody>
   </table>
 </div>
