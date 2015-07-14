@@ -57,6 +57,7 @@ tags: []
 こちらが市原さんオススメの曲です。確かにハッピーな気持ちになれますね！
 
 Oscar Peterson "Love Ballade"
+
 <div class="embed-responsive embed-responsive-16by9">
   <iframe width="420" height="315" src="https://www.youtube.com/embed/ALOHcDE4mdk" frameborder="0" allowfullscreen></iframe>
 </div>
