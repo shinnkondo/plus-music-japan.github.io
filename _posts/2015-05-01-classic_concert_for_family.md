@@ -55,7 +55,4 @@ tags: []
 5/5(火・祝) 2回公演  
 横浜みなとみらいホール 大ホール
 
-<p><a class="btn btn-default" href="http://www.yaf.or.jp/mmh/recommend/2015/05/presents-6.php" role="button">詳細はこちら»</a></p>
-  
-
 <span class="inhibit">注）おすすめコンサートは+M（ぷらすみゅーじっく）の活動とは一切関係ありません。<span>

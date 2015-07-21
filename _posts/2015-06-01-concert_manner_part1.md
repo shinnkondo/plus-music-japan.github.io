@@ -51,6 +51,5 @@ tags: []
 《横浜みなとみらいホール　オルガン•１ドルコンサート》  
 6／24(水) [vol.193] 近藤 岳「バッハ讃・未来への轍」  
 横浜みなとみらいホール 大ホール
-<p><a class="btn btn-default" href="http://www.yaf.or.jp/mmh/recommend/2015/04/2015-1.php" role="button">詳細はこちら»</a></p>
 
 <span class="inhibit">注）おすすめコンサートは+M（ぷらすみゅーじっく）の活動とは一切関係ありません。</span>
