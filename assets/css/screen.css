@@ -367,3 +367,7 @@ hr {
 .embed-form {
   padding-bottom: 820px;
 }
+
+.two-lines-table  td {
+  height: 4em;
+}
