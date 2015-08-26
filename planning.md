@@ -27,11 +27,11 @@ Q3. クラシックの事はまったくわかりません、でも、とりあ�
 A. まずは詳しいお話を伺った上でクラシックの事がわからなくても楽しめるコンサートを行えるよう努力させていただきます。
 
 Q4. どんな人達が演奏してくれるのですか？  
-A. +M（ぷらすみゅーじっく）所属の演奏者一覧をごらんください。　
+A. [+M（ぷらすみゅーじっく）所属の演奏者一覧]({{ BASE_PATH }}/artists.html)をごらんください。　
 
-<p><a class="btn btn-info" href="{{ BASE_PATH }}/artists.html" role="button">所属アーティストを見る»</a></p>
+<!-- <p><a class="btn btn-info" href="{{ BASE_PATH }}/artists.html" role="button">所属アーティストを見る»</a></p> -->
 
 Q5. 今までどんな活動を行ってきたのですか？  
-A. 過去の活動ページに、今まで行ってきたコンサートのフライヤーや情報がございます。
+A. [過去の活動ページ]({{ BASE_PATH }}/activity.html)に、今まで行ってきたコンサートのフライヤーや情報がございます。
 
-<p><a class="btn btn-info" href="{{ BASE_PATH }}/activity.html" role="button">過去の活動を見る»</a></p>
+<!-- <p><a class="btn btn-info" href="{{ BASE_PATH }}/activity.html" role="button">過去の活動を見る»</a></p> -->
