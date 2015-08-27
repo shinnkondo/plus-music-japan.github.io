@@ -5,7 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-<img src="{{ BASE_PATH }}/assets/rythmique.jpg" alt="リトミック">
+<img class="spanned-img"  src="{{ BASE_PATH }}/assets/rythmique.jpg" alt="リトミック">
 
 # リトミック
 リトミック(Rythmique)はフランス語で「良いリズム」という意味で、スイスの音楽教育家・作曲家であったエミール・ジャック=ダルクローズによって考えられた音楽教育です。
@@ -35,6 +35,6 @@ TEL	0467-24-7557
 
 ## Coming up
 <!-- <a href="/assets/jiyu-jin624.png" data-lightbox="2015624" data-title="a">Coming Up</a> -->
-<img src="{{ BASE_PATH }}/assets/images/{{site.data.concert.rythmique | first }}" alt="Flyer">
+<img class="spanned-img" src="{{ BASE_PATH }}/assets/images/{{site.data.concert.rythmique | first }}" alt="Flyer">
 
 <p><a class="btn btn-info" href="{{ BASE_PATH }}/activity.html" role="button">過去の活動はこちら»</a></p>

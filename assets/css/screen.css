@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: large;
+  font-size: 20px;
   margin-bottom: 1em;
 }
 h2 {
@@ -132,7 +132,7 @@ ul.posts {
     color: #aaa;
   }
 
-  .site img {
+  .site img.spanned-img {
     width: 100%;
   }
   /*.site ul {
@@ -250,6 +250,7 @@ ul.newslist {
   background-color: #777;
 }
 .carousel-inner > .item > img {
+    width: 100%;
 }
 
 .carousel-indicators {
@@ -370,4 +371,8 @@ hr {
 
 .two-lines-table  td {
   height: 4em;
+}
+
+.popup-gallery {
+  margin-top: 40px;
 }

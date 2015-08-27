@@ -6,6 +6,7 @@ description: ""
 {% include JB/setup %}
 
 # 過去の活動
+コンサートのフライヤーや情報などを掲載しています。
 
 ## 自遊人処Cafeコンサート
 <div class="row jiyu-jin-flyers">
