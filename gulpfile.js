@@ -12,7 +12,7 @@ var messages = {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn('ruby', ['C:\\home\\.gem\\ruby\\gems\\jekyll-3.0.0.pre.beta8\\bin\\jekyll', 'build'], {stdio: 'inherit'})
+    return cp.spawn('ruby', ['C:\\home\\.gem\\ruby\\gems\\jekyll-3.0.0.pre.beta8\\bin\\jekyll', 'build', '-f'], {stdio: 'inherit'})
         .on('close', done);
 });
 
