@@ -141,7 +141,7 @@ ul.posts {
   }*/
 
   .site .fb-page {
-    height: 500px;
+    height: 720px;
   }
 
   .site .footer {
@@ -387,4 +387,14 @@ hr {
 }
 .not-bold {
   font-weight: normal;
+}
+
+.main-column .paper-box:first-child {
+  margin-top: 0px;
+}
+.main-column .paper-box:last-child {
+  margin-bottom: 0px;
+}
+.main-column {
+  margin-top: 15px;
 }
