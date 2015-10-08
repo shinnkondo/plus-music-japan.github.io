@@ -94,6 +94,17 @@ description: ""
 			<div class="col-sm-6 col-md-5 col-lg-4">
 				<div class="paper-box">
 					<h2 id="news">最新情報</h2>
+					<div class="paper-box announcement">
+									<h3>新イベント開催のお知らせ</h3>
+				<p>
+					「おひるねまえに親子リトミック」と題しまして、いつもよりすこし大きめの親子リトミックを行います。ぜひお誘い合わせの上お越しください。
+				</p>
+				<p>
+					逗子市民交流センターにて、10月25日(日)の13時からと14時からを予定しています。
+					ご都合のよろしいほうにどうぞ。
+				</p>
+					<a class="btn btn-info" href="{{ BASE_PATH }}/rythmique_before_nap.html" role="button">詳しくはこちら»</a>
+					</div>
 					<ul class="newslist">
 						{% for line in site.data.news %}
 						<li><a href="{{ BASE_PATH }}{{line.url}}">{{line.title}}</a></li>

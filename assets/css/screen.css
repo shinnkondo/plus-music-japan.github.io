@@ -376,3 +376,15 @@ hr {
 .popup-gallery {
   margin-top: 40px;
 }
+
+.paper-box.announcement {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.announcement h3 {
+  margin-top: 0px;
+}
+.not-bold {
+  font-weight: normal;
+}
