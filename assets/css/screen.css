@@ -175,7 +175,14 @@ blockquote {
 }
 ul.newslist {
   padding-left: 10px;
+  list-style: none;
+  margin: 20px 0px;
 }
+
+ul.newslist > li {
+  margin: 10px 0px;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
