@@ -36,6 +36,14 @@ h2 {
   font-size: large;
 }
 
+h3 > a {
+  color: #E55600;
+}
+
+h3 > a:hover {
+  color: #FC5F00;
+}
+
 a {
   color: #00a;
 }
