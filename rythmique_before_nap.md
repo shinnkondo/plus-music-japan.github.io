@@ -21,7 +21,6 @@ description: ""
 予約制になっております。
 
 ### 日時
-2015年10月25日(日)  
 1回目13:00〜13:40  
 2回目14:00〜14:40
 
@@ -49,4 +48,4 @@ description: ""
 ### リトミック講師
 市原由里香
 
-<img class="spanned-img" src="{{ BASE_PATH }}/assets/images/rythmique_before_nap-2015-10-25.jpg" alt="Flyer">
+<img class="spanned-img" src="{{ BASE_PATH }}/assets/images/rythmique_before_nap-2015-11-29.jpg" alt="Flyer">
