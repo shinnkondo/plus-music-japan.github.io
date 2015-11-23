@@ -13,3 +13,5 @@ Thumbs.db
 node_modules/*
 
 .sublime-gulp.cache
+*.sublime-workspace
+*.sublime-project
