@@ -21,9 +21,7 @@ description: ""
 
 音楽を通して、親子の触れ合い・コミュニケーションの時間となるのも、親子リトミックの良いところです。
 
-料金　親子一組800円  
 対象年齢　1歳〜4歳  
-定員　四組
 
 完全予約制となっております。
 
@@ -35,6 +33,9 @@ TEL 0467-24-7557
 <p><a class="btn btn-info" href="{{ BASE_PATH }}/contact.html" role="button">連絡する»</a></p>
 
 ## Coming up
+
+おかげさまで、今回のコンサートはすでに満員となっております。
+
 <!-- <a href="/assets/jiyu-jin624.png" data-lightbox="2015624" data-title="a">Coming Up</a> -->
 <img class="spanned-img" src="{{ BASE_PATH }}/assets/images/{{site.data.concert.rythmique | first }}" alt="Flyer">
 
