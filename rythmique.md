@@ -34,8 +34,6 @@ TEL 0467-24-7557
 
 ## Coming up
 
-おかげさまで、今回のコンサートはすでに満員となっております。
-
 <!-- <a href="/assets/jiyu-jin624.png" data-lightbox="2015624" data-title="a">Coming Up</a> -->
 <img class="spanned-img" src="{{ BASE_PATH }}/assets/images/{{site.data.concert.rythmique | first }}" alt="Flyer">
 

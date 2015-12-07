@@ -48,4 +48,4 @@ description: ""
 ### リトミック講師
 市原由里香
 
-<img class="spanned-img" src="{{ BASE_PATH }}/assets/images/rythmique_before_nap-2015-11-29.jpg" alt="Flyer">
+<img class="spanned-img" src="{{ BASE_PATH }}/assets/images/{{site.data.concert.before_nap | first }}" alt="ちらし">

@@ -1,5 +1,6 @@
 ---
 jiyu-jin:
+  - "2015-12-23-concert.jpg"
   - "2015-11-25-concert.jpg"
   - "2015-10-28-concert.jpg"
   - "2015-09-16-concert.png"
@@ -11,6 +12,7 @@ jiyu-jin:
   - "2015-03-25-concert.png"
   - "2015-02-25-concert.png"
 rythmique:
+  - "rythmique-2015-12-19.png"
   - "rythmique-2015-11-29.jpg"
   - "rythmique-2015-10-25.jpg"
   - "rythmique-2015-09-20.jpg"
@@ -19,4 +21,6 @@ rythmique:
   - "rythmique-2015-06-28.png"
   - "rythmique-2015-05-17.png"
   - "rythmique-2015-04-19.png"
+before_nap:
+  - "rythmique_before_nap-2015-12-19.jpg"
 ---
