@@ -48,4 +48,7 @@ description: ""
 ### リトミック講師
 市原由里香
 
+
+## Coming up
+
 <img class="spanned-img" src="{{ BASE_PATH }}/assets/images/{{site.data.concert.before_nap | first }}" alt="ちらし">
