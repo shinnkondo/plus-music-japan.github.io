@@ -7,12 +7,16 @@ description: ""
 #アーティスト
 +M（ぷらすみゅーじっく）所属の演奏者及び伴奏者です。
 
-<div  class="container narrow table-responsive" >
+<div class="container narrow table-responsive" >
   <table class="table two-lines-table">
     <tbody>{% for artist in site.data.artists %}
       <tr>
         <td> {{ artist.part | replace: '_', '<br>'}}</td>
-        <td> {{ artist.name }}</td>
+        {% if artist.url %}
+        <td><a href="{{ artist.url}}"> {{ artist.name }}</a></td>
+        {% else %}
+        <td> {{ artist.name }}</td>        
+        {% endif %}
         <td> {{ artist.school | replace: '_', '<br>'}}</td>
       </tr>{% endfor %}
     </tbody>
