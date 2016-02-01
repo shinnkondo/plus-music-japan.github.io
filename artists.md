@@ -13,7 +13,7 @@ description: ""
       <tr>
         <td> {{ artist.part | replace: '_', '<br>'}}</td>
         {% if artist.url %}
-        <td><a href="{{ artist.url}}"> {{ artist.name }}</a></td>
+        <td><a href="{{ artist.url}}" target="_blank"> {{ artist.name }}</a></td>
         {% else %}
         <td> {{ artist.name }}</td>        
         {% endif %}
