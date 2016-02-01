@@ -43,10 +43,11 @@ end #JB
 task :flyer do
   images_dir = 'assets/images'
   concert_file = '_data/concert.yaml'
+  key = ENV['kind'] # jiyu-jin or rythmique
 
   sh "convert -density 150 #{ENV['src']} #{File.join(images_dir, ENV['dest'])}"
   concert = YAML.load_file(concert_file)
-  concert['rythmique'].unshift(ENV['dest'])
+  concert[key].unshift(ENV['dest'])
   File.write(concert_file, YAML.dump(concert))
 
 end
