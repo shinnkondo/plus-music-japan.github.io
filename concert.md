@@ -9,31 +9,17 @@ description: ""
 
 # 自遊人処Cafeコンサート
 
-小坪の住宅街にひっそりとある隠れ家的なピザ屋自遊人処にて、アットホームな雰囲気の中行われる「0歳から大人まで楽しめる本格クラシック」をコンセプトにしたコンサートです。 
+御報告
 
+3月をもちまして、毎月第4水曜日に行ってきた自遊人処Cafeコンサートを終了させて頂きます。
+参加してくださった多くの方々に御礼申し上げます。
 
-* 一回目　15:00〜  
-* 二回目　16:00〜
+今後も、クラシック音楽を身近に感じて頂けるコンサートを企画していけるよう、精進致します。
 
-定員10~15名程度（必ず最新のフライヤーをご確認ください。）
+また皆様にお会いできる事を楽しみにしています。
 
-ご予約も承っております。
+2016年3月23日(水)
 
-自遊人処  
-住所	神奈川県逗子市小坪3-3-20  
-TEL	0467-24-7557
-
-または
-<p><a class="btn btn-info" href="{{ BASE_PATH }}/contact.html" role="button">連絡する»</a></p>
-
-<div class="pull-right">
-<p>主催：+M（ぷらすみゅーじっく）<br></br>後援：逗子市</p>
-</div>
-<div class="clearfix"></div>
-
-
-## Coming up
-<!-- <a href="/assets/jiyu-jin624.png" data-lightbox="2015624" data-title="a">Coming Up</a> -->
-<img class="spanned-img" src="{{ BASE_PATH }}/assets/images/{{site.data.concert.jiyu-jin | first }}" alt="ちらし">
+代表 近藤喬之
 
 <p><a class="btn btn-info" href="{{ BASE_PATH }}/activity.html" role="button">過去の活動はこちら»</a></p>

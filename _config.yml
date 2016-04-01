@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:title:output_ext
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md","node_modules", "gulpfile.js", "package.json"]
-highlighter: pygments
+highlighter: rouge
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
