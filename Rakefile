@@ -44,12 +44,12 @@ task :flyer do
   images_dir = 'assets/images'
   concert_file = '_data/concert.yaml'
   key = ENV['kind'] # jiyu-jin or rythmique
-
-  sh "convert -density 150 #{ENV['src']} #{File.join(images_dir, ENV['dest'])}"
+  cp ENV['src'], 'temp.pdf'
+  sh "convert -density 150 temp.pdf #{File.join(images_dir, ENV['dest'])}"
   concert = YAML.load_file(concert_file)
   concert[key].unshift(ENV['dest'])
   File.write(concert_file, YAML.dump(concert))
-
+  sh "rm temp.pdf"
 end
 
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
