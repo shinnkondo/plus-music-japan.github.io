@@ -4,6 +4,7 @@ title: "所属アーティスト"
 description: ""
 ---
 {% include JB/setup %}
+
 #アーティスト
 
 +M（ぷらすみゅーじっく）所属の演奏者及び伴奏者です。
