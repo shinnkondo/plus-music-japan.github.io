@@ -20,7 +20,11 @@ function generate_gallery(folder_path)
   verborse = true
   println("Started to generate gallery.")
   images = readdir(folder_path)
-  output = ["image" "thumbnail"]
+  if isfile(DATA_PATH)
+    output = readcsv(DATA_PATH)
+  else
+    output = ["image" "thumbnail"]
+  end
   for image_path in images
     verborse && println("for $image_path")
     image = joinpath(folder_path, image_path)
@@ -38,13 +42,7 @@ end
 
 function generate_thumbnail(image_path)
   output_path = joinpath(OUTPUT_FOLDER, basename(replace(image_path, r"(\.\w+)", "_thumbnail.jpg")))
-  tmp_path = tempname()
-  run(`convert -thumbnail $(THUMBNAIL_X)x$(THUMBNAIL_Y)^ $image_path $tmp_path`)
-  (width, height) = map(int, split(chomp(readall(`identify -format "%w %h" $tmp_path`))))
-  x_offset = (width - THUMBNAIL_X)/2
-  y_offset = (height - THUMBNAIL_Y)/2
-
-  run(`convert -crop $(THUMBNAIL_X)x$(THUMBNAIL_Y)+$(x_offset)+$(y_offset) $tmp_path $output_path`)
+  run(`convert -thumbnail $(THUMBNAIL_X)x$(THUMBNAIL_Y)^ -gravity center -extent 200x200 -quality 85% -gaussian-blur 0.05 $image_path $output_path`)
   return output_path
 end
 

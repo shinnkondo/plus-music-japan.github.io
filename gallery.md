@@ -7,7 +7,7 @@ description: ""
 
 <div class="container">
 <div class="popup-gallery">
-{% for pair in site.data.gallery %}
+{% for pair in site.data.gallery reversed %}
   <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
   <a class="thumbnail" href="{{BASE_PATH}}/{{pair.image}}"><img src="{{BASE_PATH}}/{{pair.thumbnail}}" alt="写真" height="200" width="200"></a>
   </div>
