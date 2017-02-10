@@ -1,14 +1,15 @@
 ---
 layout: page
-title: "コラム"
+title: "読み物"
 description: ""
 group: navigation
 order: 2
 ---
 {% include JB/setup %}
-# クラシックコラム
+# 読み物シリーズ
 +M（ぷらすみゅーじっく）ではクラシック音楽のあれこれや、おすすめ公演、演奏者との対談を公開していきます。
 {% for post in site.posts %}
+{% if post.categories contains 'column' or post.categories contains 'interview' %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
 
@@ -24,9 +25,6 @@ order: 2
   </div>
 </div>
 <blockquote>{{ post.description }}</blockquote>
+{% endif%}
 {% endfor %}
 
-
-{% for post in site.posts %}
-  
-{% endfor %}
