@@ -85,7 +85,13 @@ description: ""
 		<div class="row main-columns">
 			<div class="col-sm-6 col-md-5 col-lg-4">
 				<div class="paper-box main-column">
-					<h2 id="news">最新情報</h2>
+					<h2 id="news">最新情報
+						<span class="pull-right">
+							<a href="https://www.facebook.com/plusmusic.zushi/"><img src="{{BASE_PATH}}/assets/images/icons/FB-f-Logo__blue_114.png" alt="" height="20" width="20"></a>
+							<a href="https://www.youtube.com/channel/UCzUGX_VAsj4xOBd36fYcu_w/featured"><img src="{{BASE_PATH}}/assets/images/icons/YouTube-social-squircle_red_128px.png" alt="" height="20" width="20"></a>
+						</span>
+					</h2>
+	
 					<ul class="newslist">
 						{% for line in site.data.news %}
 						<li><a href="{{ BASE_PATH }}{{line.url}}">{{line.title}}</a></li>
