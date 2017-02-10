@@ -52,6 +52,16 @@ task :flyer do
   sh "rm temp.pdf"
 end
 
+task :gallery do  
+  images_dir = 'assets/images/gallery'
+  ext = File.extname(ENV['src'])
+  src_name = File.basename(ENV['src'], ext)
+  dest_web = File.join(images_dir, "#{src_name}_web#{ext}")
+  dest_thumb = File.join(images_dir, "#{src_name}_thumbnail#{ext}")
+  puts "convert #{ENV['src']} -resize 1200>x1200>  #{dest_web}"
+  puts "convert #{ENV['src']} -thumbnail 200x200^ -gravity center -extent 200x200 -quality 85% -gaussian-blur 0.05 #{dest_thumb}"
+end
+
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
