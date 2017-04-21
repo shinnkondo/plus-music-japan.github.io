@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "しんやノート♪　第１回《命をかけた傑作》"
-description: "初めまして。"
+description: "初めまして。今年よりコラム「しんやノート」を担当させて頂きます、藤本音楽教室代表の藤本慎也です。"
 category: column
 tags: []
 ---
